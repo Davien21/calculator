@@ -34,11 +34,36 @@ div.inputsDiv {
 .operatorsDiv input {
 	background-color: #4C4C4C;
 	height: 20%;
-	
 }
 input {
 	margin-bottom: auto;
 	margin-top: auto;
 	border: none;
 	background-color: #F1F1F1;
+}
+}
+@media only screen and (min-width: 200px) {
+}
+@media only screen and (min-width: 400px) and (max-width: 575px) {
+		.container {
+		padding: 0px 10% !important;
+	}
+}
+@media only screen and (min-width: 576px) {
+}
+@media only screen and (min-width: 768px) {
+}
+@media only screen and (min-width: 991px) and (max-width: 1200px){
+	.container {
+		height: 75% !important;
+		padding: 0px 1% !important;
+	}
+	.col-7e {
+		-webkit-box-flex: 0 !important;
+		-ms-flex: 0 0 63% !important;
+		flex: 0 0 63% !important;
+		max-width: 63% !important;
+	}
+}
+@media only screen and (min-width: 1200px) {
 }

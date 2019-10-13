@@ -243,3 +243,45 @@ div.fullHeight {
 .bg-dark-ash {
 	background-color: #4C4C4C;
 }
+@media only screen and (min-width: 200px) {
+	 .p-xxs-0 {
+	 	padding: 0;
+	 }
+}
+@media only screen and (min-width: 400px) {
+	 .p-xs-0 {
+	 	padding: 0;
+	 }
+}
+@media only screen and (min-width: 576px) {
+	 .p-s-0 {
+	 	padding: 0;
+	 }
+	  .p-def {
+	 	padding: 0px 15px;
+	 }
+}
+@media only screen and (min-width: 768px) {
+	 .p-md-0 {
+	 	padding: 0;
+	 }
+	 .p-def {
+	 	padding: 0px 15px;
+	 }
+}
+@media only screen and (min-width: 991px) {
+	 .p-lg-0 {
+	 	padding: 0;
+	 }
+	 .p-def {
+	 	padding: 0px 15px;
+	 }
+}
+@media only screen and (min-width: 1200px) {
+	 .p-xlg-0 {
+	 	padding: 0;
+	 }
+	 .p-def {
+	 	padding: 0px 15px;
+	 }
+}
