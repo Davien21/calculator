@@ -1,0 +1,44 @@
+body {
+	font-family: helvetica;
+}
+div.form-group {
+	border: 1px solid rgba(0, 0, 0, 0.125);
+	background-color: white;
+}
+div.entireCalc {
+	box-shadow: 0px 2px 10px 0px blue;
+}
+div.displaySection {
+	height: 32% !important;
+}
+div#operation {
+	height: 56%;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+}
+button#clear {
+	background-color: transparent;
+	height: 22%;
+	font-size: 1.2rem !important
+}
+div#displaySpan {
+	height: 20%;
+}
+button {
+	bottom: 0;
+	right: 0;
+}
+div.inputsDiv {
+	height: 68% !important;
+}
+.operatorsDiv input {
+	background-color: #4C4C4C;
+	height: 20%;
+	
+}
+input {
+	margin-bottom: auto;
+	margin-top: auto;
+	border: none;
+	background-color: #F1F1F1;
+}
